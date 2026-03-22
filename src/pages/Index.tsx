@@ -4,12 +4,12 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VINYL*DINER</div>
+        <div className="logo">РАДОСТЬ*КАКИША</div>
         <nav>
           <a href="#">Меню</a>
           <a href="#">О нас</a>
-          <a href="#">Афиша</a>
-          <a href="#">Адреса</a>
+          <a href="#">Атмосфера</a>
+          <a href="#">Адрес</a>
         </nav>
         <button className="btn-cta">Забронировать</button>
       </header>
@@ -18,12 +18,12 @@ export default function Index() {
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              БЕЗ ПОНТОВ,
+              ПРОСТО,
               <br />
-              ТОЛЬКО <span>ВКУС</span>
+              ВКУСНО И <span>ДЁШЕВО</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Эстетика 70-х в современной подаче. Локальные продукты, огненные блюда и атмосфера для настоящих ценителей.
+              Настоящая домашняя кухня в центре Саратова. Фирменное коричневое пюре, которое невозможно забыть — попробуй один раз и приходи снова.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
@@ -36,29 +36,29 @@ export default function Index() {
           </div>
           <div className="hero-img">
             <div className="sticker">
-              СВЕЖАК
+              ВКУСНО
               <br />
-              КАЖДЫЙ ДЕНЬ
+              И ДЁШЕВО
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ЭСТЕТИКА
+              #САРАТОВ
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
-              ОГОНЬ
+              ТОП ПЮРЕ
             </div>
           </div>
         </section>
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ *
-            БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ
+            &nbsp; * ФИРМЕННОЕ КОРИЧНЕВОЕ ПЮРе * ЦЕНТР САРАТОВА * ДОСТУПНЫЕ ЦЕНЫ * УЮТНАЯ АТМОСФЕРА * ЛУЧШЕЕ ПЮРЕ В ГОРОДЕ *
+            ФИРМЕННОЕ КОРИЧНЕВОЕ ПЮРЕ * ЦЕНТР САРАТОВА * ДОСТУПНЫЕ ЦЕНЫ * УЮТНАЯ АТМОСФЕРА * ЛУЧШЕЕ ПЮРЕ В ГОРОДЕ
           </div>
         </div>
 
         <section className="section-padding">
           <div className="section-header">
-            <h2 className="section-title">ВЫБОР ШЕФА</h2>
+            <h2 className="section-title">НАШЕ МЕНЮ</h2>
             <a
               href="#"
               className="text-sm md:text-base"
@@ -71,10 +71,10 @@ export default function Index() {
           <div className="menu-grid">
             {/* Item 1 */}
             <div className="menu-card">
-              <span className="menu-tag">Хит продаж</span>
+              <span className="menu-tag">Фирменное блюдо</span>
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Классический бургер"
+                src="https://cdn.poehali.dev/projects/4d662487-329b-4192-b783-f15304956c81/files/8bf443bd-dcce-4dcc-ab7e-8ed501230731.jpg"
+                alt="Коричневое пюре"
               />
               <div className="menu-card-body">
                 <div
@@ -85,11 +85,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Классика</h3>
-                  <span className="price">1 400 ₽</span>
+                  <h3>Коричневое пюре</h3>
+                  <span className="price">199 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тройной смэш из мраморной говядины, фирменный соус, маринованные огурцы на бриоши.
+                  Наш фирменный рецепт — нежное пюре с золотистой корочкой и секретным соусом. Хит, которого не найдёшь нигде.
                 </p>
               </div>
             </div>
@@ -97,11 +97,11 @@ export default function Index() {
             {/* Item 2 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>
-                Острое
+                Горячее
               </span>
               <img
-                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Неоновая пицца"
+                src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                alt="Суп дня"
               />
               <div className="menu-card-body">
                 <div
@@ -112,10 +112,10 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Электро Пепперони</h3>
-                  <span className="price">1 800 ₽</span>
+                  <h3>Суп дня</h3>
+                  <span className="price">149 ₽</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Двойная пепперони, острый мёд, тесто на закваске.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Наваристый суп по домашнему рецепту. Меняется каждый день — всегда свежий и сытный.</p>
               </div>
             </div>
 
@@ -125,8 +125,8 @@ export default function Index() {
                 Популярное
               </span>
               <img
-                src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Диско Сауэр"
+                src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                alt="Компот"
               />
               <div className="menu-card-body">
                 <div
@@ -137,11 +137,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Диско Сауэр</h3>
-                  <span className="price">1 200 ₽</span>
+                  <h3>Домашний компот</h3>
+                  <span className="price">79 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Джин, цветок бузины, голубой чай и съедобная золотая пыльца.
+                  Свежесваренный компот из сезонных ягод. Освежает и согревает — в зависимости от сезона.
                 </p>
               </div>
             </div>
@@ -150,10 +150,9 @@ export default function Index() {
 
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">ВАЙБ-ЧЕК ПРОЙДЕН.</h2>
+            <h2 className="vibe-title">ДУШЕВНО И ПО-ДОМАШНЕМУ.</h2>
             <p className="vibe-text">
-              Мы не просто кормим. Мы создаём моменты. От плейлиста хип-хопа 90-х до диванов в стиле 70-х — каждый уголок
-              продуман для твоего идеального кадра. Бронь не нужна, просто приходи с настроением.
+              Мы не просто кормим — мы дарим радость. В самом центре Саратова, где каждый гость чувствует себя как дома. Простая еда, честные цены и тёплая атмосфера. Приходи один или с компанией — всегда рады.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
               Наша история
@@ -164,7 +163,7 @@ export default function Index() {
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VINYL.DINER
+            @RADOST_KAKISHA
           </h2>
           <div className="social-grid">
             <div className="social-item">
@@ -197,9 +196,9 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">VINYL*DINER</div>
+          <div className="footer-logo">РАДОСТЬ*КАКИША</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Твоё место для еды высокого качества и лоу-фай атмосферы. С 2024, но ощущается как 1974.
+            Уютный ресторан в центре Саратова с доступными ценами и фирменным коричневым пюре. Просто, вкусно, по-домашнему.
           </p>
         </div>
         <div className="footer-links">
@@ -217,12 +216,12 @@ export default function Index() {
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Политика
+                Контакты
               </a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
+                Политика
               </a>
             </li>
           </ul>
@@ -230,16 +229,16 @@ export default function Index() {
         <div className="footer-links">
           <h4>Часы работы</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>Пн–Пт: 10:00 – 22:00</li>
+            <li>Сб–Вс: 11:00 – 23:00</li>
           </ul>
         </div>
-        <div className="footer-bottom">
-          <span>2025 VINYL DINER</span>
-          <span>ВКУС КЛАССИКИ</span>
-          <span>IG / TW / TK</span>
+        <div className="footer-links">
+          <h4>Адрес</h4>
+          <ul>
+            <li>г. Саратов, центр города</li>
+            <li>📞 Телефон: уточните у нас</li>
+          </ul>
         </div>
       </footer>
     </>
